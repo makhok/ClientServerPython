@@ -1,0 +1,4 @@
+Изготовитель системыНазвание ОСКод продуктаТип системы
+1LENOVOMicrosoft Windows 7 Профессиональная00971-OEM-1982661-00231x64-based PC
+2ACERMicrosoft Windows 10 Professional00971-OEM-1982661-00231x64-based PC
+3DELLMicrosoft Windows 8.1 Professional00971-OEM-1982661-00231x86-based PC

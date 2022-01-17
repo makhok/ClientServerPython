@@ -27,18 +27,20 @@
 import chardet
 
 
-with open('test_file.txt', 'rb') as file:
+with open('test_file.txt', 'rb+') as file:
+
     # чтение файла
     b_data = file.read()
+
     # определяем кодировку и переводим ее в 'utf-8'
     print(f'Исходная кодировка -> {chardet.detect(b_data)["encoding"]}')
     b_data = b_data.decode(chardet.detect(b_data)['encoding']).encode('utf-8')
     print(f'Переконвертированная кодировка -> {chardet.detect(b_data)["encoding"]}')
-    print()
 
-# записываем данные в файл в кодировке 'utf-8'
-with open('test_file.txt', 'wb') as file:
+    # записываем данные в файл в кодировке 'utf-8'
+    file.seek(0)
     file.write(b_data)
+    print()
 
 # чтении файла c явно указаной кодировкой файла utf-8
 with open('test_file.txt', encoding='utf-8') as file:

@@ -1,0 +1,25 @@
+{
+    "orders": [
+        {
+            "item": "принтер",
+            "quantity": "10",
+            "price": "6700",
+            "buyer": "Ivanov I.I.",
+            "date": "24.09.2017"
+        },
+        {
+            "item": "сканер",
+            "quantity": "25",
+            "price": "3200",
+            "buyer": "Petrov P.P.",
+            "date": "12.03.2014"
+        },
+        {
+            "item": "notebook",
+            "quantity": "45",
+            "price": "37000",
+            "buyer": "Sidorov S.S.",
+            "date": "29.01.2021"
+        }
+    ]
+}
